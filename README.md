@@ -6,7 +6,7 @@ Role based access control for vindalu.
 
 Policy
 ------
-A `Policy` is a permission for a given path.
+A `Policy` is a permission for a given path.  It contains the following fields:
 
 ##### Name
 The name of the policy.
@@ -32,7 +32,7 @@ The operation being performed.  This can be any of the following:
 
 Role
 ----
-A `Role` contains a set of policy definitions.
+A `Role` contains a set of policy definitions.  It contains the following fields:
 
 ##### Name
 The name of the role.
@@ -43,7 +43,7 @@ An ordered list of policies for a given role.  The first matching `allow` (if fo
 
 RoleMapping
 -----------
-A `RoleMapping` contains a user or group mapped to a set of roles.
+A `RoleMapping` contains a user or group mapped to a set of roles.  It contains the following fields:
 
 ##### Name
 The name of a user or group.
